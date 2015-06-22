@@ -6,10 +6,10 @@ import org.testng.annotations.Test;
 
 import com.tab.qa.framework.core.Base;
 
-public class TestClass extends Base{
+public class UITest extends Base{
 
-/*	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	/*	public static void main(String[] args) {
+	// TODO Auto-generated method stub
 
 	}*/
 	
@@ -17,15 +17,15 @@ public class TestClass extends Base{
 	public void BeforeMethod() {
 		System.out.println("@BeforeMethod");
 	}
-
+	
 	@AfterTest
 	public void AfterMethod() {
 		System.out.println("@AfterMethod");
 	}
-
+	
 	@Test
 	public void TestMethod() {
-		System.out.println("This is the service test method.");
+		System.out.println("This is the UI test method.");
 		Base.Print();
 	}
 }
