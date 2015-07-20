@@ -25,7 +25,7 @@ public class TestClass extends Base{
 
 	@Test
 	public void TestMethod() {
-		System.out.println("This is the service test method.");
+		System.out.println("This is the service test method. Updated");
 		Base.Print();
 	}
 }
