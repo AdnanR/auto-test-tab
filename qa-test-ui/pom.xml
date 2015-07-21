@@ -19,7 +19,7 @@
                         <version>2.17</version>
                         <configuration>
                             <suiteXmlFiles>
-                                <suiteXmlFile>src/test/resources/TestClass.xml</suiteXmlFile>
+                                <suiteXmlFile>src/main/resources/TestClass.xml</suiteXmlFile>
                             </suiteXmlFiles>
                         </configuration>
                     </plugin>
