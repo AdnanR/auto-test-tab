@@ -26,6 +26,7 @@ public class UITest extends Base{
 	@Test
 	public void TestMethod() {
 		System.out.println("This is the UI test method. Updated");
+		System.out.println("Develop Branch Change");
 		Base.Print();
 	}
 }
